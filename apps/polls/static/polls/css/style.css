@@ -1,7 +1,19 @@
 body {
-    background: white url("../img/background.png") no-repeat;
+    background: #fff url("../img/background.png") no-repeat;
 }
 
 li a {
-    color: green;
+    color: #000;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.glow {
+    text-shadow: 
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff,
+        0 0 60px #fff,
+        0 0 80px #fff;
 }
